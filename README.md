@@ -4,7 +4,7 @@ description: 注意：防止只对转换后得链接直接打开有效，在链�
 
 # 添加防封域名配置
 
-{% api-method method="get" host="http://houtai.qt27.cn/weixin/weixinNisDomains/addDomains?userName=xxx&domains=xxx&type=1" path="" %}
+{% api-method method="get" host="http://houtai.qt27.cn/weixin/weixinNisDomains/addDomains?userName=xxx&domains=xxx&type=0" path="" %}
 {% api-method-summary %}
 Get Cakes
 {% endapi-method-summary %}
@@ -39,7 +39,8 @@ Get Cakes
 ```javascript
 {
     "status": 200,
-    "msg": "结果描述", //返回200=添加/删除成功 201=添加已经达到上限  202=会员过期无法添加
+    "msg": "结果描述", //返回200=添加/删除成功 201=添加已经达到上限  
+            //202=会员过期无法添加 203=账号未注册 204=域名用完了
     "domain" : "v2.com"  //返回可用的防封链接
 }
 ```
