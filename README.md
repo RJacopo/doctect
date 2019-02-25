@@ -4,7 +4,7 @@ description: 注意：防止只对转换后得链接直接打开有效，在链�
 
 # 添加防封域名配置
 
-{% api-method method="get" host="http://houtai.qt27.cn/weixin/weixinNisDomains?userName=xxx&domains=xxx&type=1" path="" %}
+{% api-method method="get" host="http://houtai.qt27.cn/weixin/weixinNisDomains/addDomains?userName=xxx&domains=xxx&type=1" path="" %}
 {% api-method-summary %}
 Get Cakes
 {% endapi-method-summary %}
