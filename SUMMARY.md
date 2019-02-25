@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [添加防封域名配置](README.md)
 
